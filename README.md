@@ -9,5 +9,6 @@ Useful to use with tech refreshes.  It's not uncommon for an endpoint to stop wo
 Important, make changes to fit your environment.  If you are not using OSPF, removed those show commands.  Add show commands for protocols that are used in your network environment.
 
 **SecureCRT**
+
 These scripts can be used with SecureCRT's Button Bar feature.  You don't have to copy and paste the script.  Just make sure logging is enabled, then click the appropriate button.
 
