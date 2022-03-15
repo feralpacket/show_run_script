@@ -12,3 +12,4 @@ Important, make changes to fit your environment.  If you are not using OSPF, rem
 
 These scripts can be used with SecureCRT's Button Bar feature.  You don't have to copy and paste the script.  Just make sure logging is enabled, then click the appropriate button.
 
+![securecrt](https://github.com/feralpacket/show_run_script/blob/main/github_securecrt_button_bar.png)
