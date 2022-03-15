@@ -1,0 +1,69 @@
+term len 0\r
+sh clock\r
+sh ntp peers\r
+sh ntp peer-status\r
+sh run diff\r
+sh run\r
+sh cdp nei\r
+sh cdp nei de\r
+sh lldp nei\r
+sh lldp nei de\r
+sh fex\r
+sh fex de\r
+sh int status\r
+sh int description\r
+sh port-channel sum\r
+sh port-channel load-balance\r
+sh port-channel traffic\r
+sh vlan\r
+sh int trunk\r
+sh mac add\r
+sh vrf\r
+sh udld nei\r
+sh ip process vrf all\r
+sh ip int bri vrf all\r
+sh ip route vrf all\r
+sh ip arp vrf all\r
+!sh forwarding route vrf all\r
+!sh forwarding adjacency\r
+!sh forwarding inconsistency\r
+sh hsrp bri all\r
+sh hsrp detail\r
+sh ip eigrp vrf all\r
+sh ip eigrp int bri vrf all\r
+sh ip eigrp int vrf all\r
+sh ip eigrp nei vrf all\r
+sh ip eigrp nei de vrf all\r
+sh ip eigrp topology vrf all\r
+sh ip eigrp topology zero-successors vrf all\r
+sh bfd nei\r
+sh bfd nei de\r
+sh otv\r
+sh otv adjacency\r
+sh otv route sum\r
+sh otv route\r
+sh policy-map\r
+sh ip policy\r
+sh ip policy de\r
+sh route-map\r
+sh access-list\r
+sh copp status\r
+sh ip traffic\r
+sh ver\r
+sh feature\r
+sh inv\r
+sh module\r
+sh module uptime\r
+sh env\r
+sh env fex all\r
+sh int transceiver\r
+dir\r
+sh vpc\r
+sh vpc consistency-parameters global\r
+sh vdc de\r
+sh vdc membership\r
+sh users\r
+!sh logging\r
+!sh logging info\r
+!copy running startup\r
+term len 20\r

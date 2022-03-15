@@ -1,0 +1,58 @@
+term len 0\r
+sh clock\r
+sh ntp associations\r
+sh ntp status\r
+show archive config differences nvram:startup-config system:running-config\r
+sh run\r
+sh cdp nei\r
+sh cdp nei de\r
+sh lldp nei\r
+sh lldp nei de\r
+sh int status\r
+sh int description\r
+sh etherc sum\r
+sh etherc load-balance\r
+sh vlan bri\r
+sh vtp status\r
+sh vtp password\r
+sh int trunk\r
+sh mac add\r
+sh vrf\r
+sh udld nei\r
+sh ip int bri\r
+sh ip route\r
+sh ip protocol\r
+sh ip arp\r
+sh ip eigrp int\r
+sh ip eigrp nei\r
+sh ip cef\r
+sh ip cef inconsistency\r
+sh standby bri\r
+sh bfd sum\r
+sh bfd nei\r
+sh ip policy\r
+sh ip local policy\r
+sh ip cache policy\r
+sh policy-map\r
+sh route-map\r
+sh access-lists\r
+sh track bri\r
+sh auth session\r
+sh dot1x all summary\r
+sh mab all summary\r
+sh process cpu sorted\r
+sh process memory sorted\r
+sh ver\r
+sh boot\r
+sh bootvar\r
+sh inv\r
+sh switch\r
+sh switch virtual\r
+sh switch virtual link\r
+dir all-filesystems\r
+sh env all\r
+sh users all\r
+sh line\r
+!sh log\r
+!wr me\r
+term len 20\r
