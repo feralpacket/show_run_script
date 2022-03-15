@@ -1,0 +1,80 @@
+term len 0
+sh clock
+sh ntp associations
+sh ntp status
+!
+show archive config differences nvram:startup-config system:running-config
+sh run
+!
+sh cdp nei
+sh cdp nei de
+sh lldp nei
+sh lldp nei de
+!
+sh int status
+sh int description
+sh etherc sum
+sh etherc load-balance
+!
+sh vrf
+!sh udld nei
+!
+sh ip int bri
+sh ip protocol
+sh ip protocol vrf Mgmt-intf
+sh ip route
+sh ip route vrf Mgmt-intf
+sh arp
+sh arp vrf Mgmt-intf
+sh ip eigrp int
+sh ip eigrp nei
+sh ip eigrp vrf Mgmt-intf int
+sh ip eigrp vrf Mgmt-intf nei
+sh ip ospf int bri
+sh ip ospf nei
+sh ip bgp sum
+sh ip bgp
+sh ip bgp nei
+sh ip bgp rib-failure
+sh ip cef
+sh ip cef inconsistency
+sh ip cef vrf Mgmt-intf
+!
+sh standby bri
+sh vrrp bri 
+sh vrrp all
+!
+sh ip nhrp
+sh dmvpn detail
+sh crypto session
+sh crypto isakmp sa
+sh crypto ikev2 sa
+sh crypto ipsec sa
+!
+sh bfd sum
+sh bfd nei
+!
+sh ip policy
+sh ip local policy
+sh ip cache policy
+sh policy-map
+sh route-map
+sh access-lists
+sh track bri
+sh track
+!
+sh process cpu sorted
+sh process memory sorted
+!
+sh ver
+sh boot
+sh bootvar
+sh inv
+dir all-filesystems
+sh env all
+sh users all
+sh line
+!sh log
+
+
+!wr me
