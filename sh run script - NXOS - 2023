@@ -1,0 +1,86 @@
+term len 0
+sh clock
+sh ntp peers
+sh ntp peer-status
+!
+sh run diff
+sh run
+!
+sh cdp nei
+sh cdp nei de
+sh lldp nei
+sh lldp nei de
+sh fex
+sh fex de
+!
+sh int status
+sh int description
+sh port-channel sum
+sh port-channel load-balance
+sh port-channel traffic
+sh vlan
+sh int trunk
+sh mac add
+sh vrf
+sh udld nei
+!
+sh ip process vrf all
+sh ip int bri vrf all
+sh ip route vrf all
+sh ip arp vrf all
+! The following 2 produce 58k and 70k lines of entries on the 9504s.
+! The resulting log file is over 10Mb in size.
+!sh forwarding route vrf all
+!sh forwarding adjacency
+!sh forwarding inconsistency
+!
+sh hsrp bri all
+sh hsrp detail
+!
+sh ip eigrp vrf all
+sh ip eigrp int bri vrf all
+sh ip eigrp int vrf all
+sh ip eigrp nei vrf all
+sh ip eigrp nei de vrf all
+sh ip eigrp topology vrf all
+sh ip eigrp topology zero-successors vrf all
+!
+sh bfd nei
+sh bfd nei de
+!
+sh otv
+sh otv adjacency
+sh otv route sum
+sh otv route
+!
+sh policy-map
+sh ip policy
+sh ip policy de
+sh route-map
+sh access-list
+sh copp status
+!
+sh ip traffic
+!
+sh ver
+sh feature
+sh inv all
+sh module
+sh module uptime
+sh env
+sh env fex all
+sh int transceiver
+dir
+sh vpc
+sh vpc consistency-parameters global
+sh vdc de
+sh vdc membership
+!
+sh users
+!
+!sh logging
+sh logging info
+!
+term len 20
+!
+copy running startup
